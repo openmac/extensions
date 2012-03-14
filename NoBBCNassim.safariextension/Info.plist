@@ -9,7 +9,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>NoBBCNassim</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.github.openmac</string>
+	<string>com.github.openmac.nobbcnassim</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
