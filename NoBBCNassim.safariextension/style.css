@@ -1,0 +1,110 @@
+* {
+font-family: 'XB Zar','Geeza Pro', Arial, sans-serif !important;
+}
+
+.top-story .teaser .title {
+    font-size:28px !important;
+}
+
+p {
+    font-size:14px !important;
+    line-height: 20px !important;
+}
+
+.datestamp {
+    font-size:13px !important;
+}
+#blq-local-nav a {
+    font-size:13px !important;
+}
+.gel-carousel .carousel-gel-generic .carousel-window .carousel-content{
+    background:#D1700E !important;
+    font-weight:normal !important;
+}
+.associated { 
+    font-size:15px !important;
+
+}
+.more-top-stories .teaser .title {
+    font-size:18px !important;
+}
+.teaser .associated li {
+    padding-top:2px !important;
+}
+.teaser .associated {
+    line-height:20px !important;
+    }
+#banner #streaming-promo {
+  font-size:13px !important;
+}
+.blq-rtl #blq-nav-main {
+ font-size:11px !important;
+ }
+ 
+.blq-rtl #blq-acc-mobile {
+ font-size:11px !important;
+ }
+.li-ticker h1 {
+  font-size:13px !important;
+}
+.teaser {
+    font-size:13px !important;
+}
+
+.list > .title,
+.box .title,
+.contextual-links h2,
+#footballtable h2,
+.story-body .dna-comments_module h3 {        
+    font-size:24px !important;
+}
+
+.teaser .topics h3,
+.teaser .topics h4 {
+    font-size:13px !important;
+}
+
+.teaser .topics a {
+    font-size:13px !important;
+}
+
+.teaser .timeago {
+    font-size:13px !important;
+}
+
+.bx-livestats .body ol li {
+    font-size:15px !important;
+    line-height:24px;
+}
+
+.bx-livestats .tab {
+    font-size:16px !important;
+    line-height:24px;   
+}
+
+h1 {
+    font-size:32px !important;
+    line-height:40px;
+}
+
+.bodytext .list .title,
+.bodytext .box .title,
+.bodytext .bx-imagemap h2 {
+    font-size:22px !important;
+    line-height:24px;   
+}
+
+h2 {
+    font-size:18px !important;
+}
+
+.blq-gvl-3 #blq-mast #blq-search {
+font-size:13px !important;
+}
+.g-w11 .li-specialfeatures .ts-336x189 {
+background-color:#D1700E !important;
+}
+
+.li-carousel .carousel-page-nav li{
+    font-size:20px !important;
+}

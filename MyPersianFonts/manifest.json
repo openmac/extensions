@@ -1,0 +1,21 @@
+{
+    "name": "My Persian Fonts",
+    "version": "1.0",
+    "description": "Choose your favorite Persian font. (Based on Allvetica extension by Luís Rodrigues)",
+    "content_scripts": [
+        {
+               "matches": [ "http://*/*", "https://*/*" ],
+                    "js": [ "jquery.js", "mypersianfonts.js" ],
+                   "css": [ "mypersianfonts.css" ],
+            "all_frames": true,
+                "run_at": "document_idle"
+        }
+    ],
+    "background_page": "background.html",
+    "options_page": "options.html",
+    "icons": {
+         "16": "icon16.png",
+         "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}

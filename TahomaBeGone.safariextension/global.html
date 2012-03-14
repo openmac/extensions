@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script type="text/javascript">
+		function respondToMessage(event) {
+			if (event.name == "load-settings") {
+				settings = {
+					"replaceTahoma": safari.extension.settings.replaceTahoma,
+					"replaceArial": safari.extension.settings.replaceArial,
+					"replaceTimesNewRoman": safari.extension.settings.replaceTimesNewRoman,
+					"replaceWith": safari.extension.settings.replaceWith
+				}
+				event.target.page.dispatchMessage("settings", settings)
+			}
+		}
+		safari.application.addEventListener("message",respondToMessage,false);
+	</script>
+</head>
+</html>

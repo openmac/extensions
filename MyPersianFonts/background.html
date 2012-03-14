@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+    <script type="text/javascript">
+    
+    // Default settings
+    if (!localStorage.mypersianfonts) {
+    
+        defaultFont = 'XB Zar';
+            
+        localStorage.mypersianfonts = JSON.stringify( {
+            replaceBBCNassim: false,
+            replaceArial: false,
+            replaceTimesNewRoman: false,
+            replaceTahoma: true,
+            replacement: defaultFont,
+            replacementCustom: 'sans-serif',
+            replacementCustomValid: true
+        } );
+    }
+    
+    // Request listener
+    chrome.extension.onRequest.addListener(
+        function (request, sender, sendResponse) {
+            if (request.data == "options") {
+                var options = JSON.parse( localStorage.mypersianfonts );
+                sendResponse( { options: options } );
+            } else {
+                sendResponse( {} );
+            }
+        }
+    );
+    
+    </script>
+</head>
+<body></body>
+</html>

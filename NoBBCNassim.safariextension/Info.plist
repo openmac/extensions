@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Persian Extensions Project</string>
+	<key>Builder Version</key>
+	<string>7534.53.10</string>
+	<key>CFBundleDisplayName</key>
+	<string>NoBBCNassim</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.github.openmac</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.93</string>
+	<key>CFBundleVersion</key>
+	<string>0.93</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+		<key>Stylesheets</key>
+		<array>
+			<string>style.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Turns BBC Persian website font into XB Zar.(Based on HelveticaTheWorld extension by Sonny Fazio)</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.bbcpersian.com</string>
+				<string>*.bbc.co.uk/persian</string>
+				<string>bbcpersian.com</string>
+				<string>bbc.co.uk/persian</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/openmac/extensions/NoBBCNassim.plist</string>
+	<key>Website</key>
+	<string>https://github.com/openmac/extensions</string>
+</dict>
+</plist>
