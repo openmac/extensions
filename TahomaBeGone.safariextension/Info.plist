@@ -46,7 +46,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://github.com/openmac/extensions/TahomaBeGone.plist</string>
+	<string>https://raw.github.com/openmac/extensions/master/TahomaBeGone.plist</string>
 	<key>Website</key>
 	<string>https://github.com/openmac/extensions</string>
 </dict>

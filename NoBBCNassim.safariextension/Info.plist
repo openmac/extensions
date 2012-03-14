@@ -49,7 +49,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://github.com/openmac/extensions/NoBBCNassim.plist</string>
+	<string>https://raw.github.com/openmac/extensions/master/NoBBCNassim.plist</string>
 	<key>Website</key>
 	<string>https://github.com/openmac/extensions</string>
 </dict>

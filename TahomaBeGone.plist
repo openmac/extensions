@@ -14,7 +14,7 @@
 			<key>CFBundleShortVersionString</key>
 			<string>1.1</string>
 			<key>URL</key>
-			<string>https://github.com/openmac/extensions/TahomaBeGone.safariextz</string>
+			<string>https://raw.github.com/openmac/extensions/master/TahomaBeGone.safariextz</string>
 		</dict>
 	</array>
 </dict>
